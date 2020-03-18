@@ -2,9 +2,16 @@ h1, h2, h3 {
   margin: 10px;
 }
 
-
 h1 {
-  font-size: 20px;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+h3 {
+  font-size: 18px;
 }
 
 .nav_item_present {
@@ -102,7 +109,7 @@ p {
   padding: 10px;
   margin: 30px;
   text-align: center;
-  background-color: gold;
+  background-color: #f8fab8;
 }
 
 .img_container {
