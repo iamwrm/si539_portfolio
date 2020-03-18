@@ -85,7 +85,7 @@ h3 {
   padding: 20px;
   width: 400px;
   border: black solid;
-  background-image: url("/images/community.jpg");
+  background-image: url("../images/community.jpg");
   /* height: 500px; */
   background-attachment: fixed;
   background-position: center;
