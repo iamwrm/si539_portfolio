@@ -1,26 +1,60 @@
-.nav_item_present{
-  font-size: larger;
+.nav_item_present {
+  font-size: 25px;
 }
 
-#logo{
-  width: 50px;
+footer {
+  background-color: rgb(207, 234, 250);
+  /* color: black; */
+  grid-column: 1 / -1;
+  grid-row: 7 / auto;
+  padding-top: 30px;
+  text-align: center;
 }
 
+@-webkit-keyframes logo_wiggle {
+  from {
+    width: 20px;
+    height: 179px;
+  }
+  to {
+    width: 200px;
+    height: 179px;
+  }
+}
 
-#community{
+@keyframes logo_wiggle {
+  from {
+    width: 20px;
+    height: 179px;
+  }
+  to {
+    width: 200px;
+    height: 179px;
+  }
+}
+
+#logo {
+  -webkit-animation-name: logo_wiggle;
+  animation-name: logo_wiggle;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+#community {
   width: 300px;
-
 }
 
-#vintage{
+#vintage {
   width: 300px;
 }
 
-#tetris_main{
+#tetris_main {
   width: 300px;
 }
 
-p{
+p {
   padding: 5px;
   margin: 10px;
 }
