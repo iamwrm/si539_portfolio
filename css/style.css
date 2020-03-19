@@ -77,7 +77,7 @@ h3 {
   width: 70px;
 }
 
-#para {
+#para1, #para2 {
   justify-self: center;
   text-align: center;
   margin-left: auto;
@@ -93,12 +93,12 @@ h3 {
   background-size: cover;
 }
 
-#para>p {
+#para1>p, #para2>p {
   /* color: green; */
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-#para>form {
+#para1>form, #para2>form {
   /* color: green; */
   background-color: rgba(255, 255, 255, 0.9);
 }
